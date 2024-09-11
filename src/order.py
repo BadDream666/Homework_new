@@ -16,4 +16,3 @@ class Order:
 
     def __str__(self):
         return f'Куплен: {self.product.name}, колличество: {self.buy_count} шт, сумма покупки:{self.total_price}'
-    
